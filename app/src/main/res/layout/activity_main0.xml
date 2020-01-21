@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main0Activity">
+
+    <ListView
+        android:id="@+id/songsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:background="#00F1B6B6"
+
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="1dp"
+        android:headerDividersEnabled="false"
+        android:listSelector="#D547EE">
+
+    </ListView>
+
+</RelativeLayout>
